@@ -39,37 +39,13 @@ spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
 spring.datasource.username=your_db_user
 spring.datasource.password=your_db_password
 spring.jpa.hibernate.ddl-auto=update
-Run the application
 
-bash
-Copy code
+Run the application:
 mvn spring-boot:run
-Open in browser:
 
-arduino
-Copy code
+Open in browser:
 http://localhost:8080/
+
 Author
 Ganesh Nalla – Aspiring Java Backend Developer
 GitHub Repository
-
-yaml
-Copy code
-
----
-
-### **2️⃣ Save the file**
-
-- Make sure it’s named exactly: `README.md`  
-- Save it in your **project root folder** (the same folder where `pom.xml` is).  
-
----
-
-### **3️⃣ Commit and push it to GitHub**
-
-Open PowerShell in your project folder and run:
-
-```powershell
-git add README.md
-git commit -m "Add professional README with setup instructions"
-git push
